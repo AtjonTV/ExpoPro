@@ -1,0 +1,5 @@
+main: at.nexusmodsclient.ExpoPlus.Main
+name: ExpoPlus
+version: 1.0.0
+authors: [NexusMods_Client, AtjonTV]
+website: http://www.minecraft.atvg-studios.at/nmc/

