@@ -1,5 +1,15 @@
 # ExpoPro
+ExpoPro ist bassierend auf ExpoPlus, hier ist die beschreibung:
+
 Exploit Plus, kurz ExpoPlus, ist ein OP Plugin für das Trollen von Server besitzern oder das Griefen von kleinen Servern. Nachdem ein Server Besitzer ExpoPlus am Server installiert hat, kannst du dich mit "+logmein" in Expo einloggen, und mit "+help" dir eine Liste von Commands anzeigen lassen. WICHTIG! Um das Plugin nutzen zu können brauchst du KEINE RECHTE, nicht einmal Chat Rechte! ExpoPlus hat eine Nutzer anzahl von Maximal 2!
+
+# Report Bugs or Wishes
+
+You can Report Bugs or add Wishes on our Bugtracker Site:
+
+| URL                               |
+| --------------------------------- |
+| http://bugtracker.atvg-studios.at |
 
 # License
 This Software is Licensed under ATVG-Studios's OSPLv1.1 [ http://atvg-studios.at/OSPLv1.1 ]
